@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop-down Menu</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <button class="profile-btn nav-btn">Profile</button>
+      <div class="profile dropdown">
+        <ul>
+          <li>edit</li>
+          <li>account</li>
+          <li>setting</li>
+        </ul>
+      </div>
+      <button class="menu-btn nav-btn" main-content>Menu</button>
+      <div class="menu dropdown">
+        <ul>
+          <li>history</li>
+          <li>timeline</li>
+          <li>setting</li>
+          <li>payment</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="main-content">
+      <div class="container">
+        <button class="slider-btn prevBtn">Prev</button>
+        <div class="slider-container">
+          <div class="slide">
+            <img src="./img-1.jpeg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img-2.jpeg" alt="" />
+          </div>
+        </div>
+        <button class="slider-btn nextBtn">Next</button>
+      </div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
